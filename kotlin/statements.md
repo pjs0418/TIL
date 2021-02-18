@@ -1,6 +1,6 @@
 # Kotlin 기본 문법
 
-# 함수 기본 형태
+## 함수 기본 형태
 
 ```kotlin
 fun main() {
@@ -26,15 +26,15 @@ fun add(a : Int, b : Int) : Int {
 }
 ```
 
-# Val vs Var
+## Val vs Var
 
 - val = value (변하지 않는 값)
 - var = variable (변할 수 있는 값)
 
-# String Template
+## String Template
 
 ```kotlin
-		val name = "Jun Su "
+    val name = "Jun Su "
     val lastName = "Park"
     println("My name is ${name + lastName} I'm 24")
     println("this is 2\$bill")
@@ -42,7 +42,7 @@ fun add(a : Int, b : Int) : Int {
 
 - $ 표시를 단순하게 사용하고 싶을 때는 \ 를 이용한다.
 
-# 조건식
+## 조건식
 
 - 조건식(if문)은 다른 언어와 비슷하다.
 - 조건식(if문)의 다른 표현(삼항연산자와 비슷하다.)
@@ -77,13 +77,13 @@ fun checkNum(num : Int) {
 }
 ```
 
-# Expression vs Statement
+## Expression vs Statement
 
 - Kotlin의 모든 함수는 Expression이다.
 - Expression이란 무언의 과정을 통해 값을 반환하는 것이다.
 - Statement는 단순하게 어떻게 하라는 명령의 의미를 가진다.
 
-# Array and List
+## Array and List
 
 - Array는 기본적으로 mutable이다.
 - List는 List와 MutableList가 있다. 기본적으로는 값을 변경할 수 없는 List이다.
@@ -105,7 +105,7 @@ fun array() {
 }
 ```
 
-# 반복문
+## 반복문
 
 ```kotlin
 fun forAndWhile() {
@@ -142,6 +142,6 @@ fun forAndWhile() {
 }
 ```
 
-# 참고 자료
+## 참고 자료
 
 [https://www.youtube.com/watch?v=IDVnZPjRCYg&t=2312s](https://www.youtube.com/watch?v=IDVnZPjRCYg&t=2312s)
